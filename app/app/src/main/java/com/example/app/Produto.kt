@@ -1,3 +1,8 @@
 package com.example.app
 
-class Produto {}
+data class Produto (
+    val nome: String,
+    val categoria: String,
+    val preco: String,
+    val qtd_estoque: String
+)
