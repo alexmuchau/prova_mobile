@@ -9,8 +9,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.example.app.BackButton
-import com.example.app.Produto
+import com.example.app.components.BackButton
+import com.example.app.classes.Produto
+import com.example.app.components.BackButton
+import com.example.app.components.Title
 
 @Composable
 fun TelaDetalhamento(produto: Produto, navController: NavController) {

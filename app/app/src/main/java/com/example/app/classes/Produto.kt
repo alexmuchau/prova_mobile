@@ -1,4 +1,4 @@
-package com.example.app
+package com.example.app.classes
 
 data class Produto (
     val nome: String,
